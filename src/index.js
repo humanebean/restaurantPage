@@ -1,5 +1,6 @@
 import loadHomePage from './loadHomePage';
 import createMenuPage from './loadMenu';
+import createContactPage from './loadContactPage';
 function clearBox(elementID)
 {
     document.getElementById(elementID).innerHTML = "";
@@ -39,4 +40,11 @@ menuButton.addEventListener("click",()=>{
     clearBox("content");
     createMenuPage();
 })
+
+let contactButton = document.getElementById("contactButton");
+contactButton.addEventListener("click",()=>{
+    clearBox("content");
+    createContactPage();
+})
+
 console.log("?IDK");
