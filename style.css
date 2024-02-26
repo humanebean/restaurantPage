@@ -58,6 +58,7 @@ button:hover{
     border-radius: 25%;
 }
 
+
 .menuItem{
     margin: 0 25vw;
     display: flex;
@@ -71,12 +72,28 @@ button:hover{
     border: solid rgba(35, 14, 2, 0.436);
     border-width: 8px;
     border-radius: 5%;
+    line-height: 1.5em;
 }
 .menuItem:hover{
     color: rgb(255, 246, 240);
     background-color: rgba(37, 28, 18, 0.897);
     border: solid rgba(205, 186, 151, 0.584);
 }
+
+.contactContainer{
+    margin: 20vh 33vw;
+    background-color: rgba(48, 38, 27, 0.719);
+    padding: 10px 50px;
+    line-height: 1.5em;
+    border-radius: 10%;
+    font-size: 18px;
+}
+
+.contactHeader{
+    display: flex;
+    justify-content: center;
+}
+
 
 #homeButton{
     
