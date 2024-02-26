@@ -5,12 +5,52 @@ nav{
 }
 
 .BTN{
-    padding: 10px;
+    padding: 20px;
+    font-size: 20px;
     border-radius: 25%;
+    margin-bottom: 40px;
+    background-color: rgba(48, 38, 27, 0.703);
+    border: solid rgba(121, 102, 92, 0.171);
+    color: rgb(255, 243, 236);
+}
+
+button:hover{
+    color: rgb(255, 246, 240);
+    background-color: rgba(37, 28, 18, 0.897);
+    border: solid rgba(205, 186, 151, 0.584);
 }
 
 #content{
     
+}
+
+.homepage{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    margin: 0 30vw;
+    line-height: 1.5em;
+    justify-items: center;
+    border-radius: 2%;
+}
+
+.homepageTitle{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    padding: 105x;
+    background-color: rgba(48, 38, 27, 0.555);
+    border: solid rgba(35, 14, 2, 0.436);
+}
+
+.homepageDescription{
+    font-size: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgba(48, 38, 27, 0.555);
+    border: solid rgba(35, 14, 2, 0.436);
 }
 .menuImage{
     width: 20vw;
@@ -32,9 +72,14 @@ nav{
     border-width: 8px;
     border-radius: 5%;
 }
+.menuItem:hover{
+    color: rgb(255, 246, 240);
+    background-color: rgba(37, 28, 18, 0.897);
+    border: solid rgba(205, 186, 151, 0.584);
+}
 
 #homeButton{
-    color: red;
+    
 }
 .menuItemName{
     display: flex;
