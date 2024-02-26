@@ -9,14 +9,28 @@ nav{
     border-radius: 25%;
 }
 
+#content{
+    
+}
 .menuImage{
     width: 20vw;
+    border: solid rgb(31, 4, 4);
+    border-radius: 25%;
 }
 
 .menuItem{
+    margin: 0 25vw;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 25px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 25px;
+    background-color: rgba(48, 38, 27, 0.555);
+    border: solid rgba(35, 14, 2, 0.436);
+    border-width: 8px;
+    border-radius: 5%;
 }
 
 #homeButton{
@@ -25,6 +39,12 @@ nav{
 .menuItemName{
     display: flex;
     justify-content: center;
+}
+
+.itemPrice{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
 }
 body{
     color: rgb(226, 211, 203);
