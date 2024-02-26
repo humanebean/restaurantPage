@@ -1,25 +1,8 @@
-function createButton(name, domElement){
-    let dom=document.getElementById(domElement);
-    let button = document.createElement("button");
-    button.textContent=name;
-    dom.appendChild(button);
-};
-
-const addNavButtons = ()=>{
-    console.log("loadHomePage.js")
-
-    createButton("button0","nav");
-    createButton("button1","nav");
-    createButton("button2","nav");
-    createButton("button3","nav");
-    createButton("button4","nav");
-};
-
 function addTitle () {
-    let title=document.getElementById("title");
+    let content = document.getElementById("content");
     let titleText = document.createElement("div");
     titleText.innerHTML=("The Bathhouse Restaurant");
-    title.appendChild(titleText);
+    content.appendChild(titleText);
 };
 
 function addDescription() {
@@ -29,7 +12,6 @@ function addDescription() {
     content.appendChild(description);
 }
 function loadHomePage(){
-    addNavButtons();
     addTitle();
     addDescription();
 }

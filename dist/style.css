@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.BTN{
+    padding: 10px;
+    border-radius: 25%;
+}
+
+.menuImage{
+    width: 20vw;
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#homeButton{
+    color: red;
+}
+.menuItemName{
+    display: flex;
+    justify-content: center;
+}
+body{
+    color: rgb(226, 211, 203);
+}
