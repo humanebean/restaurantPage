@@ -30,7 +30,7 @@ function createMenuItem(name,description,imageURL,price){
 
 function createMenuPage(){
     
-    createMenuItem("Aj ifry","Aji Fry) is a traditional Japanese home-cooking dish. Butterflied horse mackerel is coated in breadcrumbs and deep-fried to a perfect golden colour. The method of butterflying the fish is unique as it opens the fish from the dorsal side instead of the belly side.","/restaurantPage/images/ajiFry.avif","$12.99");
+    createMenuItem("Aji ifry","Aji Fry is a traditional Japanese home-cooking dish. Butterflied horse mackerel is coated in breadcrumbs and deep-fried to a perfect golden colour. The method of butterflying the fish is unique as it opens the fish from the dorsal side instead of the belly side.","/restaurantPage/images/ajiFry.avif","$12.99");
     createMenuItem("Bento","This is Bento box that contains sticky rice, sausage, gfried potatoes and grilled leeks.","/restaurantPage/images/bento.webp","$10.99");
     createMenuItem("Breakfast","Fried eggs and bacon, cooked with Calcifer's special flame.","/restaurantPage/images/breakfast.png","$12.99");
     createMenuItem("Egg On Toast","A fried egg served on top of a slice of toasted wheat bread.","/restaurantPage/images/eggOnToast.avif","$7.99");
